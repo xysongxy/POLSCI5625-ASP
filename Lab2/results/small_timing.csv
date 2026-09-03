@@ -1,0 +1,4 @@
+"experiment","method","elapsed_seconds","time_gain_over_loop","time_reduction_percent"
+"1000 x 3000 absolute differences","nested loop",0.284999999999968,1,0
+"1000 x 3000 absolute differences","vectorized outer",0.0120000000000573,23.7499999998839,95.78947368419
+"1000 x 3000 absolute differences","vectorized hand-coded",0.0209999999999582,13.5714285714541,92.6315789473823
