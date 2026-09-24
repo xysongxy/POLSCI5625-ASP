@@ -6,8 +6,8 @@ In this lab, implement K-means in two ways: write the assignment and center
 updates yourself, then use R's `stats::kmeans()` function. Compare the results
 using the same data, starting centers, and Lloyd algorithm.
 
-The lab follows the K-means material in Week 5 (slides 4-11) and simplifies
-`0_kmeans_demonstration.R`. Both implementations are in `R/lab5.r`: the
+The lab follows the K-means material in Week 5 (slides 4-11). 
+Both implementations are in `R/lab5.r`: the
 hand-coded assignment/update functions and `kmeans_function()`, which calls
 `stats::kmeans()`. One figure shows the main stages.
 
@@ -32,7 +32,7 @@ Lab5/
 |   |-- method_comparison.csv
 |   |-- objective_history.csv
 |   |-- cluster_assignments.csv
-|   |-- kmeans_steps.png
+|   |-- kmeans_steps.pdf
 |   |-- kmeans_iterations.pdf
 |-- tests/
 |   |-- lab5_test.r
@@ -202,7 +202,7 @@ source(file.path("tests", "lab5_test.r"))
 source(file.path("R", "run_lab5.r"))
 ```
 
-The runner saves three CSV files and `results/kmeans_steps.png`. The figure
+The runner saves three CSV files and `results/kmeans_steps.pdf`. The figure
 shows initial centers, the first assignment, the first update, the two final
 fits, and the objective history. Crosses mark centers and colors mark fitted
 clusters.

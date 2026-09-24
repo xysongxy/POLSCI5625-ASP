@@ -1,0 +1,5 @@
+"method","input_scale","initialization","tot.withinss","iterations"
+"hand-coded Lloyd","original","supplied centers",8.11316211005041,19
+"stats::kmeans Lloyd","original","supplied centers",8.11316211005042,19
+"stats::kmeans Lloyd","original","25 random starts",8.11316211005042,14
+"stats::kmeans Lloyd","standardized","25 random starts",264.918182559244,8
