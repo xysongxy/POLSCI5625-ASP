@@ -24,6 +24,8 @@ POLSCI5625 Applied Statistical Programming/
 |   |-- ...
 |-- Lab8/
 |   |-- ...
+|-- Lab9/
+|   |-- ...
 |-- ...
 |-- README.md
 ```
@@ -85,6 +87,15 @@ sizes and candidate counts for different band sizes.
 
 See [Lab 8 instructions](Lab8/README.md) for the in-class exercise.
 
+### Lab 9: Getting started with Rcpp
+
+Lab 9 compiles small C++ functions from R and practices scalar arithmetic,
+numeric vectors, zero-based indexing, and logical results. Students write
+`voteDifference()`, `secondValue()`, and `isEligible()`, then compile and test
+them from separate C++ files. A sum-of-squares loop from Lecture 9 is optional.
+
+See [Lab 9 instructions](Lab9/README.md) for setup, exercises, and reference code.
+
 ## Folder conventions
 
 Each lab follows the same general organization:
@@ -102,6 +113,7 @@ Each lab follows the same general organization:
 - The `boot` package for Lab 3
 - The `foreach`, `doParallel`, and `microbenchmark` packages for Lab 4
 - Labs 5, 6, and 8 use base R and the included `stats` package; no additional packages
+- The `Rcpp` package and a working C++ compiler for Lab 9; `microbenchmark` is optional
 
 ## Running a script
 
